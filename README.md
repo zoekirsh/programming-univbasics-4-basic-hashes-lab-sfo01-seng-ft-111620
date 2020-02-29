@@ -24,6 +24,10 @@ and follow the test suite messages as you work through your solution.
 3. Create a method called `pioneer` that returns a hash. This hash should have a
    key that is a symbol `:name` and whose value is a string, `'Grace Hopper'`.
 
+4. Create a method called `id_hash_generator` that takes in one parameter, an
+   integer. This method should create and return a hash with a key `:id` with
+   the integer as the value.
+   
 ## Conclusion
 
 Hashes are an essential data type that we will use frequently. Now that you've
