@@ -55,8 +55,10 @@ def new_hash
 end
 ```
 
-But this is not as common. It is common to think when creating a hash, we need to
-assign it to a variable:
+But we don't see this as often.
+
+When first learning to work with hashes, it is common to think we always need to
+assign it to a variable, so your solution might look like this:
 
 ```rb
 def new_hash
@@ -65,9 +67,17 @@ def new_hash
 end
 ```
 
-While this is valid code, the variable is not needed. All that matters is what
-gets returned. Because of Ruby methods use implicit return, when we create a
-hash using `{}`, we can just return that directly.
+Or even this:
+
+```rb
+def new_hash
+  hash = {}
+end
+```
+
+While both of these are valid code and return an empty hash, the variable is not
+needed. All that matters is what gets returned. Because Ruby methods use
+implicit return, when we create a hash using `{}`, we can return that directly.
 
 For the second method, `my_hash`, we will also return a hash. This hash must have some
 key/value pair included. Your choice.
@@ -78,7 +88,7 @@ def my_hash
 end
 ```
 
-When usings symbols for keys, we can write key/value pairs as seen above, or
+When using symbols for keys, we can write key/value pairs as seen above, or
 with the alternative syntax:
 
 ```rb
@@ -87,9 +97,9 @@ def my_hash
 end
 ```
 
-For the third method, `pioneer`, the task is same as the previous method,
-except this time, the key should be `:name` and the value should be
-`Grace Hopper`:
+For the third method, `pioneer`, the task is the same as the previous method.
+Except this time, the key should be `:name` and the value should be `Grace
+Hopper`:
 
 ```rb
 def pioneer
