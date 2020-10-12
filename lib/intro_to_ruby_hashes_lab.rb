@@ -1,9 +1,9 @@
 def new_hash
-  # return an empty hash
+  empty_hash = {} 
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  plants = {:monstera => "swiss cheese plant", :calathea => "peacock plant", :sansevierina} 
 end
 
 def pioneer
