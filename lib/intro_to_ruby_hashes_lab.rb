@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  plants = {:monstera => "swiss cheese plant", :calathea => "peacock plant", :sansevierina} 
+  plants = {:monstera => "swiss cheese plant", :calathea => "peacock plant", :sansevieria => "snake plant"} 
 end
 
 def pioneer
